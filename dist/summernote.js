@@ -6,7 +6,7 @@
  * Copyright 2013-2016 Alan Hong. and other contributors
  * summernote may be freely distributed under the MIT license./
  *
- * Date: 2016-12-12T10:02Z
+ * Date: 2017-01-04T16:41Z
  */
 (function (factory) {
   /* global define */
@@ -4092,7 +4092,6 @@
           if (typeof param === 'string') {
             $image.attr('data-filename', param);
           }
-          $image.css('width', Math.min($editable.width(), $image.width()));
           $image.css('max-width', '100%');
         }
 

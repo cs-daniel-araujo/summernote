@@ -350,7 +350,6 @@ define([
           if (typeof param === 'string') {
             $image.attr('data-filename', param);
           }
-          $image.css('width', Math.min($editable.width(), $image.width()));
           $image.css('max-width', '100%');
         }
 
